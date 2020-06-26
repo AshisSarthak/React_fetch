@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostItem Componnet default render 1`] = `
+<div
+  className="post-item"
+>
+  <div
+    className="content"
+    onClick={[Function]}
+  >
+    demo
+  </div>
+</div>
+`;

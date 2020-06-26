@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment Componnet default render 1`] = `
+<div
+  className="comment-cont"
+>
+  <div
+    className="comment-author"
+  >
+    <h5
+      className="subject"
+    >
+      demo
+    </h5>
+    <div
+      className="author-name"
+    >
+      abc@demo.com
+    </div>
+  </div>
+  <div
+    className="body"
+  >
+    demo
+  </div>
+</div>
+`;
+
+exports[`PostContainer Componnet default render 1`] = `
+<div
+  className="post-container"
+>
+  <div
+    className="post-header"
+  >
+    <h4>
+      demo
+    </h4>
+    <div
+      className="author"
+    >
+      <sub>
+        Created By 
+      </sub>
+       
+      <h5 />
+    </div>
+  </div>
+  <div
+    className="commentSection"
+  />
+</div>
+`;
+
+exports[`PostContainer Componnet loads certain post 1`] = `
+<PostContainer
+  post={
+    Object {
+      "body": "demo",
+      "id": 1,
+      "title": "demo",
+      "userId": 11,
+    }
+  }
+>
+  <div
+    className="post-container"
+  >
+    <div
+      className="post-header"
+    >
+      <h4>
+        demo
+      </h4>
+      <div
+        className="author"
+      >
+        <sub>
+          Created By 
+        </sub>
+         
+        <h5 />
+      </div>
+    </div>
+    <div
+      className="commentSection"
+    />
+  </div>
+</PostContainer>
+`;

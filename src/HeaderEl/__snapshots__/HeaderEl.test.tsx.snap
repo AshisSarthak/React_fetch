@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderEl Componnet default render with back arrow 1`] = `
+<header
+  className="App-header"
+>
+  <div
+    className="backBtn"
+    onClick={[MockFunction]}
+  >
+    <div
+      className="leftArrow"
+    />
+    Back
+  </div>
+  <div
+    className="seach-user"
+  >
+    <input
+      className="user-as"
+      onChange={[Function]}
+      placeholder="Search User"
+    />
+  </div>
+</header>
+`;
+
+exports[`HeaderEl Componnet default render with no back arrow 1`] = `
+<header
+  className="App-header"
+>
+  <div
+    className="seach-user"
+  >
+    <input
+      className="user-as"
+      onChange={[Function]}
+      placeholder="Search User"
+    />
+  </div>
+</header>
+`;

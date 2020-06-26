@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar Componnet default render 1`] = `
+<div
+  className="avatar"
+  onClick={[MockFunction]}
+>
+  AS
+</div>
+`;

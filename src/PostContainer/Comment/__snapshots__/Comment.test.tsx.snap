@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment Componnet default render 1`] = `
+<div
+  className="comment-cont"
+>
+  <div
+    className="comment-author"
+  >
+    <h5
+      className="subject"
+    >
+      demo
+    </h5>
+    <div
+      className="author-name"
+    >
+      abc@demo.com
+    </div>
+  </div>
+  <div
+    className="body"
+  >
+    demo
+  </div>
+</div>
+`;

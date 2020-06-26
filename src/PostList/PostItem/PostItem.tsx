@@ -22,6 +22,7 @@ export class PostItemEl extends React.Component<PostItemProp, PostItemState> {
         user : {}
     }
   }
+  
   componentDidMount(){
     fetch('https://jsonplaceholder.typicode.com/users/'+this.props.item.userId)
     .then(response => response.json())
